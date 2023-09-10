@@ -128,7 +128,7 @@ body {
   padding: 71px 0 91px 99px;
   position: relative;
   width: 100%; 
-  background: url(images/homehero_jpg.png) no-repeat center 0;
+  background: url(images/hero.jpg) no-repeat center 0;
   background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -227,32 +227,27 @@ body {
     width: 25%;
 }
 .grid-item1 {
-    background-image: url(images/);
+    background-image: url(images/chacutterie.jpg);
 }
 .grid-item2 {
-    background-image: url(images/AdobeStock_104995217.png);
+    background-image: url(images/pizza1.jpg);
 }
 .grid-item3 {
-    background-image: url(images/AdobeStock_62743914.png);
+    background-image: url(images/pizza2.jpg);
 }
 .grid-item4 {
-    background-image: url(images/AdobeStock_27579652.png)
+    background-image: url(images/wine.jpg)
 }
 .grid-item5 {
-    background-image: url(images/AdobeStock_62743914.png);
+    background-image: url(images/wine.jpg);
 }
 .grid-item6 {
-    background-image: url(images/AdobeStock_27579652.png);
+    background-image: url(images/chacutterie.jpg);
 }
-.grid-item7 {
-    background-image: url(images/AdobeStock_110880055.png);
-}
-.grid-item8 {
-    background-image: url(images/AdobeStock_104995217.png);
-}
+
 footer {
     background: #000000;
-    color: white;
+    color: #323333;
     padding: 43px 0 54px;
     justify-content: space-between;   
 }
