@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style/styles.css">
+	<link rel="stylesheet" href="stye/style.css">
 <title>Lina-Maria Caro</title>
 </head>
 <body>
     <div class="global_container">
       <header class="header">
           <div class="logo">
-            <img class="logo-img" src="images/adobestock_13082371.jpg" alt="" width="55" height="71">
+            <img class="logo-img" src="images/logo.png" alt="" width="55" height="71">
             <p class="text">italian Joy</p>
           </div>
           <div class="navigation">
@@ -22,13 +22,13 @@
               </ul>
               <div class="scoail-icons group">
                 <a href="#">
-                  <img class="yepicon-png" src="images/yepicon_png.png" alt="" width="23" height="23">
+                  <img class="yepicon-png" src="images/yepicon.png" alt="" width="23" height="23">
                 </a>
                 <a href="#">
-                  <img src="images/twittericon_png.png" alt="" width="33" height="25">
+                  <img src="images/twittericon.png" alt="" width="33" height="25">
                 </a>
                 <a href="#">
-                  <img class="fbicon-png" src="images/fbicon_png.png" alt="" width="23" height="23">
+                  <img class="fbicon-png" src="images/fbicon.png" alt="" width="23" height="23">
                 </a>
               </div>
           </div>
@@ -51,7 +51,7 @@
         <div class="icon-row">
           <div class="article">
              <div class="pizza"> 
-                  <img src="images/pizzaicon_png.png">
+                  <img src="images/pizzaicon.jpg>
               </div>
               <h3>The finest ingredients</h3>
               <p>IItalian Joy Restaurant is a place that takes pride in the fresh ingredients that make up our tasty dishes. 
@@ -59,7 +59,7 @@
           </div>
           <div class="article">
              <div class="pizza"> 
-                  <img src="images/deliveryicon_png.png">
+                  <img src="images/deliveryicon.png">
               </div>
               <h3>The Quickest Deliver</h3>
               <p>Order online today and have hot, fresh delicisous Italian food delivered right to your front door
@@ -67,7 +67,7 @@
           </div>
           <div class="article">
              <div class="pizza"> 
-                  <img src="images/menuicon_png.png">
+                  <img src="images/menuicon.png">
               </div>
               <h3>The best menu</h3>
               <p>Our menu of pasta, pizza and Italian cuisine handmade with love, from scratch, daily.
