@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/styles.css">
+<title>Lina-Maria Caro</title>
+</head>
+<body>
+    <div class="global_container">
+      <header class="header">
+          <div class="logo">
+            <img class="logo-img" src="images/adobestock_13082371.jpg" alt="" width="55" height="71">
+            <p class="text">italian Joy</p>
+          </div>
+          <div class="navigation">
+              <ul class="nav-links">
+                <li><a href="#">HOME</a></li>   
+                <li><a href="#"> MENU</a></li>  
+                <li><a href="#">Reservations</a></li>   
+                <li><a href="#">Reviews</a></li>  <li><a href="#">THe blog</a></li>  <li><a href="#">Contact Us</a></li>
+              </ul>
+              <div class="scoail-icons group">
+                <a href="#">
+                  <img class="yepicon-png" src="images/yepicon_png.png" alt="" width="23" height="23">
+                </a>
+                <a href="#">
+                  <img src="images/twittericon_png.png" alt="" width="33" height="25">
+                </a>
+                <a href="#">
+                  <img class="fbicon-png" src="images/fbicon_png.png" alt="" width="23" height="23">
+                </a>
+              </div>
+          </div>
+      </header>
+	     <div class="hero">
+          <div class="hero-content">
+            <h1 class="hero-title"> ALL THE PIZZA>
+		    <br>
+		    <h1 class="hero-title"> ALL THE PIZZA></h1>
+			    <br>
+			    <h1 class="hero-title">YOU CARE TO EAT></h1>
+            <p class="hero-caption">STARTING FROM</p>
+		     <h2 class="hero-subhead">$8.99</h2>
+            <a href="#" class="order-button">
+              View The Menu
+            </a>
+          </div>
+        </div>
+	    <section class="container">
+        <div class="icon-row">
+          <div class="article">
+             <div class="pizza"> 
+                  <img src="images/pizzaicon_png.png">
+              </div>
+              <h3>The finest ingredients</h3>
+              <p>IItalian Joy Restaurant is a place that takes pride in the fresh ingredients that make up our tasty dishes. 
+<a href="#">Learn More</a> </p>
+          </div>
+          <div class="article">
+             <div class="pizza"> 
+                  <img src="images/deliveryicon_png.png">
+              </div>
+              <h3>The Quickest Deliver</h3>
+              <p>Order online today and have hot, fresh delicisous Italian food delivered right to your front door
+<a href="#">Learn More.</a> </p>
+          </div>
+          <div class="article">
+             <div class="pizza"> 
+                  <img src="images/menuicon_png.png">
+              </div>
+              <h3>The best menu</h3>
+              <p>Our menu of pasta, pizza and Italian cuisine handmade with love, from scratch, daily.
+<a href="#">Learn More.</a> </p>
+          </div>
+        </div>
+      </section
+	       <section class="grid">
+          <div class="grid-item1 griditem"></div>
+          <div class="grid-item2 griditem"></div>
+          <div class="grid-item3 griditem"></div>
+          <div class="grid-item4 griditem"></div>
+          <div class="grid-item5 griditem"></div>
+          <div class="grid-item6 griditem"></div>
+          <div class="grid-item7 griditem"></div>
+          <div class="grid-item8 griditem"></div>
+      </section>
+      <footer>
+        <div class="footer-container">
+            <div class="mailing-list">
+            <h4>JOIN OUR MAILING LIST</h4>
+                <form>
+                    <input class="text-input" type="text" placeholder="Email Address"/>
+                    <input class="submit-button" type="submit" value="Sign Up"/>
+                </form>
+            </div>
+            <div class="contact">
+                <h4>Italian Joy Restaurant</h4>
+                <p>123 Nowhere Lane<br>
+                    Orlando, FL 32806</p>
+                <p>407) 555-1234<br>
+                    info@italianjoy.com</p>
+            </div>
+        </div>
+      </footer>
+    </div>
+<body>
+
+  
+</body>
+</html>
