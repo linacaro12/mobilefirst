@@ -1,0 +1,307 @@
+/* This will effect everything from 0 to 576px */
+/* Media Queries */
+@media (min-width: 576px) /* for mobile */{}
+@media (min-width:768px) /* for tablets */{}
+@media (min-width: 992px) /* for laptops */{}
+@media (min-width: 1200px) /* for large devices */{}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  min-width: 1400px;
+  color: #575757;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0625rem; 
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.global_container {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  padding: 11px 0 0;
+  position: relative;
+  width: 100%;
+  background: #ffffff center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header {
+  position: relative;
+  display: flex;
+  width: 1200px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  float: left;
+  position: relative;
+  width: 10%;
+}
+.navigation {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li:after {
+    content: '|';
+    padding: 0 14px;
+}
+.nav-links a {
+    color: #2a2a2a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    align-content: center;
+}
+.logo-img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 5.5px;
+}
+.text {
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 0.048em;
+  text-transform: uppercase;
+}
+.text-2 {
+  float: left;
+  margin: 46px 0 0 90px;
+  width: 770px;
+  color: #2a2a2a;
+  font-size: 0.875rem; 
+  font-weight: 600;
+  letter-spacing: 0.048em;
+  text-transform: uppercase;
+}
+.scoail-icons {
+  float: left;
+  margin: 0px 0 0 131px;
+  position: relative;
+  width: 97px;
+}
+.scoail-icons > * {
+  float: left;
+  margin: 0 9px 0 0;
+}
+.scoail-icons > *:last-child {
+  margin-right: 0 !important;
+}
+.yepicon-png {
+  margin-top: 1px !important;
+}
+.fbicon-png {
+  margin-top: 1px !important;
+}
+.text-style {
+  font-family: Oswald, sans-serif;
+  font-size: 10.582775rem; 
+  font-weight: bold;
+  line-height: 160.71468px;
+}
+.text-style-2 {
+  font-family: Oswald, sans-serif;
+  font-size: 10.582775rem; 
+  font-weight: bold;
+  letter-spacing: 0.068em;
+  line-height: 160.71468px;
+}
+.hero {
+  margin: 18px 0 0;
+  padding: 71px 0 91px 99px;
+  position: relative;
+  width: 100%; 
+  background: url(images/homehero_jpg.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero-content {
+  color: white;
+  width: 393px;
+}
+.hero-title {
+  width: 366px;
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+  font-size: 5.201703rem; 
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.hero-subhead {
+  margin: 6px 0 0 9px;
+  width: 452px;
+  color: #ffffff;
+  font-size: 1.875rem; 
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.hero-caption {
+  margin: 7px 0 0 9px;
+  color: #ffffff;
+  font-size: 0.875rem; 
+  font-weight: 300;
+}
+.order-button {
+  margin: 25px 0 0 10px;
+  text-decoration: none;
+  min-height: 39px;
+  padding: 0 18px;
+  position: relative;
+  display: inline-block;
+  border: 2px solid #b35354; 
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #d66363;
+  font-size: 1.1875rem; 
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.order-button:hover {
+    background: #b35354;
+    color: white;
+}
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.article {
+    width: 33%;
+    text-align: center;
+    padding: 50px;
+}
+.article h3 {
+    margin: 26px auto 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 800;
+    color: #575757;
+    padding-bottom: 24px;
+}
+.article p {
+    color: #575757;
+    font-size: 17px;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+}
+.icon-row {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: 1100px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 580px;
+}
+.griditem {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    width: 25%;
+}
+.grid-item1 {
+    background-image: url(images/);
+}
+.grid-item2 {
+    background-image: url(images/AdobeStock_104995217.png);
+}
+.grid-item3 {
+    background-image: url(images/AdobeStock_62743914.png);
+}
+.grid-item4 {
+    background-image: url(images/AdobeStock_27579652.png)
+}
+.grid-item5 {
+    background-image: url(images/AdobeStock_62743914.png);
+}
+.grid-item6 {
+    background-image: url(images/AdobeStock_27579652.png);
+}
+.grid-item7 {
+    background-image: url(images/AdobeStock_110880055.png);
+}
+.grid-item8 {
+    background-image: url(images/AdobeStock_104995217.png);
+}
+footer {
+    background: #000000;
+    color: white;
+    padding: 43px 0 54px;
+    justify-content: space-between;   
+}
+.footer-container {
+  justify-content: space-between;
+  position: relative;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+footer .contact {
+    text-align: center;
+    width: 40%;
+}
+.mailing-list{
+    justify-content:center;
+    align-content: center;
+    width: 40%;
+}
+.mailing-list h4{
+    margin-bottom: 22px;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.mailing-list form{
+    display: flex;
+    width: 100%;
+}
+.text-input{
+   padding: .5em;
+    font-size: 14px;
+    border:2px;
+    border-color: #7b7b7b;
+    flex-grow: 1;    
+}
+.text-input::placeholder{
+    color: #4f4f4f;
+}
+.submit-button{
+    border: solid;
+    border-color: white;
+    color: white;
+    background: #000000;
+    padding: .5em;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.contact p{
+    text-align: center;
+    margin-bottom: 22px;
+}
